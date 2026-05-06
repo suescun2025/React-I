@@ -1,0 +1,71 @@
+.ejercicio5-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.ejercicio5-container h1 {
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.ejercicio5-container input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.ejercicio5-container input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.botones-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.ejercicio5-container button {
+  background-color: #154ea3;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.ejercicio5-container button:hover {
+  background-color: #0f3d7a;
+}
+
+.error {
+  color: #eb0d0d;
+  font-size: 18px;
+  text-align: center;
+}
+
+.resultado {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+

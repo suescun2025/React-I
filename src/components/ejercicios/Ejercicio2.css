@@ -1,0 +1,44 @@
+.ejercicio2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.ejercicio2-container h1 {
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.ejercicio2-container p {
+  text-align: center;
+  color: #fcfcfc;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.ejercicio2-container button {
+  background-color: #154ea3;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.ejercicio2-container button:hover {
+  background-color: #0f3d7a;
+}
+

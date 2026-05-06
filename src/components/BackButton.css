@@ -1,0 +1,8 @@
+.back-button {
+  text-decoration: none;
+  color: #0f0f0f;
+  margin-top: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+

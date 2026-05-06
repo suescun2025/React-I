@@ -1,0 +1,93 @@
+.ejercicio9-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.ejercicio9-container h1 {
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.ejercicio9-container input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.ejercicio9-container input[type="text"]:focus {
+  outline: none;
+  border-color: #154ea3;
+}
+
+.ejercicio9-container button {
+  background-color: #154ea3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.ejercicio9-container button:hover {
+  background-color: #0f3d7a;
+}
+
+.lista-container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ejercicio9-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ejercicio9-container li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  border-left: 4px solid #fc0800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ejercicio9-container li.completada {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.ejercicio9-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.tarea-texto {
+  flex: 1;
+}
+

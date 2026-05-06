@@ -1,0 +1,50 @@
+.ejercicio8-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.ejercicio8-container h1 {
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.ejercicio8-container textarea {
+  width: 70%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.ejercicio8-container button {
+  background-color: #154ea3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.ejercicio8-container button:hover {
+  background-color: #0f3d7a;
+}
+
+#resultado {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
